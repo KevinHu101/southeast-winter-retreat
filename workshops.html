@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshops - 2027 Southeast Winter Retreat</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Snow effect container -->
+    <div id="snow-container" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html#top" class="logo">Southeast Winter Retreat</a>
+        <div class="nav-actions">
+          <a href="index.html" class="external-tab"
+            ><i class="fa-solid fa-house icon-small"></i> Home</a
+          >
+          <a
+            href="workshops.html"
+            class="external-tab active"
+            style="color: var(--cyan-accent); font-weight: 700"
+            >Workshops
+            <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i
+          ></a>
+          <a href="index.html#register" class="btn-nav">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="hero" style="min-height: 50vh">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="script-subtitle">Explore & Grow</span>
+        <h1>Retreat Workshops</h1>
+        <p class="hero-tagline">
+          Equipping sessions designed to build up your faith, relationships, and
+          walk with God.
+        </p>
+      </div>
+    </header>
+
+    <!-- Workshops Grid Section -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>2027 Track Options</h2>
+          <p>
+            Choose from a variety of practical and spiritual workshops during
+            the retreat.
+          </p>
+        </div>
+
+        <div
+          class="grid cards-grid"
+          style="
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+          "
+        >
+          <!-- Workshop Card 1 -->
+          <div
+            class="card"
+            style="
+              text-align: left;
+              padding: 0;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <div
+              style="
+                height: 180px;
+                background: #3a7ca5;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 3rem;
+              "
+            >
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <div
+              style="
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+              "
+            >
+              <span
+                style="
+                  font-size: 0.85rem;
+                  font-weight: 700;
+                  color: var(--primary-accent);
+                  text-transform: uppercase;
+                  margin-bottom: 0.5rem;
+                "
+                >Track A</span
+              >
+              <h3 style="margin-bottom: 1rem; color: var(--primary-dark)">
+                Navigating Faith in College
+              </h3>
+              <p
+                style="
+                  color: #666;
+                  font-size: 0.95rem;
+                  margin-bottom: 1.5rem;
+                  flex-grow: 1;
+                "
+              >
+                Practical guidance on holding fast to your convictions, managing
+                academic pressure, and building a flourishing spiritual
+                community on campus.
+              </p>
+              <a
+                href="index.html#register"
+                class="btn btn-secondary"
+                style="
+                  background: var(--primary-ice);
+                  color: var(--primary-dark);
+                  justify-content: center;
+                "
+                >Sign Up to Attend</a
+              >
+            </div>
+          </div>
+
+          <!-- Workshop Card 2 -->
+          <div
+            class="card"
+            style="
+              text-align: left;
+              padding: 0;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <div
+              style="
+                height: 180px;
+                background: #1b3b2b;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 3rem;
+              "
+            >
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <div
+              style="
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+              "
+            >
+              <span
+                style="
+                  font-size: 0.85rem;
+                  font-weight: 700;
+                  color: var(--primary-accent);
+                  text-transform: uppercase;
+                  margin-bottom: 0.5rem;
+                "
+                >Track B</span
+              >
+              <h3 style="margin-bottom: 1rem; color: var(--primary-dark)">
+                Deepening Your Quiet Time
+              </h3>
+              <p
+                style="
+                  color: #666;
+                  font-size: 0.95rem;
+                  margin-bottom: 1.5rem;
+                  flex-grow: 1;
+                "
+              >
+                Learn actionable methods for personal Bible study, prayer
+                mapping, and building a sustainable daily rhythm of listening to
+                God's voice.
+              </p>
+              <a
+                href="index.html#register"
+                class="btn btn-secondary"
+                style="
+                  background: var(--primary-ice);
+                  color: var(--primary-dark);
+                  justify-content: center;
+                "
+                >Sign Up to Attend</a
+              >
+            </div>
+          </div>
+
+          <!-- Workshop Card 3 -->
+          <div
+            class="card"
+            style="
+              text-align: left;
+              padding: 0;
+              overflow: hidden;
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <div
+              style="
+                height: 180px;
+                background: #1c3144;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 3rem;
+              "
+            >
+              <i class="fa-solid fa-people-arrows"></i>
+            </div>
+            <div
+              style="
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+              "
+            >
+              <span
+                style="
+                  font-size: 0.85rem;
+                  font-weight: 700;
+                  color: var(--primary-accent);
+                  text-transform: uppercase;
+                  margin-bottom: 0.5rem;
+                "
+                >Track C</span
+              >
+              <h3 style="margin-bottom: 1rem; color: var(--primary-dark)">
+                Building Godly Relationships
+              </h3>
+              <p
+                style="
+                  color: #666;
+                  font-size: 0.95rem;
+                  margin-bottom: 1.5rem;
+                  flex-grow: 1;
+                "
+              >
+                A candid discussion on friendship, conflict resolution, dating,
+                and honoring God in how we love and serve the people around us.
+              </p>
+              <a
+                href="index.html#register"
+                class="btn btn-secondary"
+                style="
+                  background: var(--primary-ice);
+                  color: var(--primary-dark);
+                  justify-content: center;
+                "
+                >Sign Up to Attend</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2027 Acts2Network Southeast College Ministries.</p>
+        <div class="footer-links">
+          <a href="https://acts2.network" target="_blank" class="footer-btn">
+            <i class="fa-solid fa-globe"></i> acts2network
+            <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i>
+          </a>
+          <a
+            href="https://www.acts2college.org/"
+            target="_blank"
+            class="footer-btn"
+          >
+            <i class="fa-solid fa-graduation-cap"></i> acts2college
+            <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

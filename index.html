@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2027 Southeast College Winter Retreat</title>
+  
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="top"></div>
+
+  <!-- Snow effect container -->
+  <div id="snow-container" aria-hidden="true"></div>
+
+  <!-- Clean Top Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html#top" class="logo">Southeast Winter Retreat</a>
+      <div class="nav-actions">
+        <a href="workshops.html" class="external-tab">Workshops <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i></a>
+        <a href="index.html#register" class="btn-nav">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Vertical Side Dot Indicator Navigation -->
+  <aside class="side-nav" aria-label="Page Sections">
+    <ul>
+      <li>
+        <a href="#about" class="side-link" data-section="about">
+          <span class="dot"></span>
+          <span class="label">About</span>
+        </a>
+      </li>
+      <li>
+        <a href="#video" class="side-link" data-section="video">
+          <span class="dot"></span>
+          <span class="label">Promo Video</span>
+        </a>
+      </li>
+      <li>
+        <a href="#details" class="side-link" data-section="details">
+          <span class="dot"></span>
+          <span class="label">Details & Pricing</span>
+        </a>
+      </li>
+      <li>
+        <a href="#packing" class="side-link" data-section="packing">
+          <span class="dot"></span>
+          <span class="label">Packing List</span>
+        </a>
+      </li>
+      <li>
+        <a href="#register" class="side-link" data-section="register">
+          <span class="dot"></span>
+          <span class="label">Sign Up</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="script-subtitle">Southeast</span>
+      <h1>Winter Retreat</h1>
+      <p class="hero-tagline">Start the new year right! 🚐✨</p>
+      
+      <div class="hero-meta">
+        <div class="meta-item">
+          <i class="fa-solid fa-calendar-days"></i>
+          <span>Fri 1/29 – Sun 1/31/2027</span>
+        </div>
+        <div class="meta-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Liberty Univ Mountain Conference Center, VA</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#register" class="btn btn-primary btn-glow">Register Now</a>
+        <a href="https://maps.google.com/?q=Liberty+University+Mountain+Conference+Center" target="_blank" class="btn btn-secondary">
+          <i class="fa-solid fa-map-location-dot"></i> View Location
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Quick Info Highlights -->
+  <section id="about" class="section highlights">
+    <div class="container">
+      <div class="section-header">
+        <h2>What To Expect ⚓️</h2>
+        <p>A weekend of sports, bonding, God's word....</p>
+      </div>
+
+      <div class="grid cards-grid">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Connect & Fellowship</h3>
+          <p>Meet college students across Maryland, Virginia, and North Carolina ministries in the Acts2Network.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-book-bible"></i></div>
+          <h3>Grow in Faith</h3>
+          <p>Learn more about God and deepen your understanding of Christianity through Scripture and group discussions.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-campground"></i></div>
+          <h3>Adventure & Fun</h3>
+          <p>Enjoy campfires, team sports, outdoor games, and lasting memories with fellow students and mentors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Video Section -->
+  <section id="video" class="section video-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Retreat Promo Video 🎥</h2>
+        <p>Catch a glimpse of what God has in store for us!</p>
+      </div>
+      <div class="video-container">
+        <iframe 
+          src="" 
+          title="Retreat Promo Video" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing & Details -->
+  <section id="details" class="section details-section">
+    <div class="container">
+      <div class="grid pricing-grid">
+        <div class="pricing-card">
+          <div class="badge-earlybird">
+            <span>First-Timers & Early Bird Special!</span>
+          </div>
+          <h3>Pricing (Lodging 🏘 & Meals 🍝)</h3>
+          <p class="subtext">After church subsidy</p>
+
+          <div class="price-display">
+            <span class="old-price">$100</span>
+            <span class="current-price">$75</span>
+          </div>
+          <p class="deadline-note">Early bird rate valid if registered by <strong>Jan 1, 2027</strong>!</p>
+          <p class="final-deadline"><i class="fa-solid fa-clock"></i> Final Sign Up Deadline: <strong>Thursday, Jan 28, 2027</strong></p>
+        </div>
+
+        <div class="audience-info">
+          <h2>Who Is This For? 🎓</h2>
+          <p>
+            Winter Retreat is open to <strong>ALL college students</strong>! Whether one of our ministries is your spiritual home, or you are checking out church and Christianity for the very first time, you are welcome here!
+          </p>
+          <div class="regions-badge-list">
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> Charlottesville, VA</span>
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> College Park, MD</span>
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> Fairfax, VA</span>
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> D.C.</span>
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> Raleigh, NC</span>
+            <span class="badge"><i class="fa-solid fa-location-pin"></i> Chapel Hill, NC</span>
+          </div>
+          <div class="info-alert">
+            <i class="fa-solid fa-car"></i>
+            <div>
+              <strong>Rides & Fee Collection:</strong>
+              <p>Rides to Liberty University Mountain Conference Center and retreat fee collection will be coordinated by your local church team!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Packing List -->
+  <section id="packing" class="section packing-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>🧳 Packing List Checklist</h2>
+        <p>Interactive checklist — tap items as you pack!</p>
+      </div>
+
+      <div class="packing-checklist">
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Bible, notebook & pen</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Sleeping bag & pillow</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Clothes (including activewear for sports - 2 nights / 3 days)</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Warm jacket & sweaters</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Toiletries (shampoo, soap, shower slippers, towel, etc.)</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Reusable water bottle</span>
+        </label>
+        <label class="check-item">
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+          <span>Personal meds & Health Insurance Info (e.g. EpiPens, inhalers)</span>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <!-- Embedded Official Google Form Section -->
+  <section id="register" class="section register-section">
+    <div class="container">
+      <div class="form-container embed-container">
+        <div class="form-header">
+          <h2>Sign Up for Winter Retreat 2027</h2>
+          <p>Fill out the official form below to secure your spot!</p>
+        </div>
+
+        <div class="iframe-wrapper">
+          <iframe 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSd1CJ1fYm1IT2QpUpMH_xscK_QciIpUTQKHeXIiv9pPN99-Lg/viewform?embedded=true" 
+            width="100%" 
+            height="1250" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0">
+            Loading…
+          </iframe>
+        </div>
+
+        <div class="external-links">
+          <p>Having trouble viewing the form?</p>
+          <a href="https://docs.google.com/forms/d/1vhbj-YxhG6KORBQ9RBe_V7B-0zUOHcjCh3_fIlw5Kdc/viewform" target="_blank" class="btn btn-link">
+            <i class="fa-brands fa-google"></i> Open Form in New Tab
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2027 Acts2Network Southeast College Ministries.</p>
+      <div class="footer-links">
+        <a href="https://acts2.network" target="_blank" class="footer-btn">
+          <i class="fa-solid fa-globe"></i> acts2network <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i>
+        </a>
+        <a href="https://www.acts2college.org/" target="_blank" class="footer-btn">
+          <i class="fa-solid fa-graduation-cap"></i> acts2college <i class="fa-solid fa-arrow-up-right-from-square icon-small"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
